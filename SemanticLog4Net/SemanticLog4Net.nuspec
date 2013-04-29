@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SemanticLog4Net</id>
+        <version>1.0.0.1</version>
+        <title>SemanticLog4Net</title>
+        <authors>korggy</authors>
+        <owners />
+        <projectUrl>https://semanticlog4net.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Contains a custom EventTextFormatter that formats events in Log4Net XML format. Works in conjunction with the Semantic Logging Application Block in Microsoft Enterprise Library 6.</description>
+        <summary />
+        <dependencies>
+            <dependency id="log4net" version="2.0.0" />
+            <dependency id="EnterpriseLibrary.SemanticLogging" version="1.0.1304.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\SemanticLog4Net.dll" target="lib\SemanticLog4Net.dll" />
+    </files>
+</package>
