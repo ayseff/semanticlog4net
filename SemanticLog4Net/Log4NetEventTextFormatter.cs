@@ -28,7 +28,7 @@ namespace SemanticLog4Net.Formatters
 			var loggingEventData = new LoggingEventData
 			{
 				Level = this.GetLevel(eventEntry.Schema.Level),
-				LoggerName = eventEntry.Schema.TaskName,
+				LoggerName = eventEntry.Schema.ProviderName + '.' + eventEntry.Schema.TaskName,
 				Message = eventEntry.FormattedMessage,
 				TimeStamp = eventEntry.Timestamp.DateTime,
 			};
